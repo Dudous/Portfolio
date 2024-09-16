@@ -1,9 +1,10 @@
 .page {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: var(--color1);
+    background-color: var(--color2);
 }
 
 .principal {
@@ -14,6 +15,34 @@
     justify-content: space-around;
     margin: 0 2%;
 }
+
+.deck {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    width: 80vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    background-color: var(--color1);
+}
+
+.cardTittle {
+    padding: 5% 0;
+    font-size: larger;
+}
+
+.imagem {
+    height: 300px;
+}
+
 
 .greetings {
     display: flex;

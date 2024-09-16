@@ -1,6 +1,7 @@
 import './App.module.css'
 import { Header } from './components/Header'
 import { Home } from './components/Home'
+import { Historico } from './components/historico'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Home/>
+      <Historico/>
     </>
   )
 }

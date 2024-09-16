@@ -2,6 +2,7 @@
   --color1: #116178;
   --color2: #114077;
   --white: #fff;
+  --roboto: "Roboto", sans-serif;
 }
 
 * {
@@ -15,5 +16,5 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto);
 }
