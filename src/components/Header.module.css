@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color2);
+    height: 10vh;
+}
+
+.name {
+    display: flex;
+    width: 20%;
+    padding: 20px;
+    justify-content: center;
+    color: var(--white);
+    padding-top: 2.5%;
+}
+
+.pageList {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.sessenta {
+    width: 60%;
+    padding-top: 2%;
+}
+
+.page {
+    padding: 10px;
+    background-color: var(--color1);
+    border-radius: 10px;
+    margin: 0 2%;
+    list-style: none;
+}
+
+.page:hover {
+    cursor: pointer;
+}
+
+.text {
+    color: var(--white);
+}
