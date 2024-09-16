@@ -1,0 +1,53 @@
+.page {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+}
+
+.principal {
+    display: flex;
+    color: var(--white);
+    height: 30%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 2%;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.social {
+    padding: 10px;
+    margin: 0 2%;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+.resume {
+    font-size: large;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 17px 70px;
+    background-color: var(--color2);
+}
+
+.resume:hover {
+    cursor: pointer;
+}
+
+.imgprincipal {
+    margin: 0 2%;
+}
