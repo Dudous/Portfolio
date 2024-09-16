@@ -11,9 +11,9 @@ export const Historico = () => {
                 </div>
                 <div className={style.deck}>
 
-                    <div className={style.card}>
+                    <div className={style.card}>ks
                         <h5 className={style.cardTittle}>Desenvolvedor Web</h5>
-                        <img src={senai} alt="Imagem daora" />
+                        <img className={style.imagem} src={senai} alt="Imagem daora" />
                         <div>
                             <h6>Empresa XYZ</h6>
                             <p>Trabalhei no desenvolvimento de aplicações web utilizando tecnologias como HTML, CSS, JavaScript e frameworks modernos.</p>
