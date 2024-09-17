@@ -17,9 +17,9 @@ export const Home = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div>
                         <ul className={style.line}>
-                            <li className={style.social}><img src={github} alt="GitHub"/></li>
-                            <li className={style.social}><img src={instagram} alt="Instagram"/></li>
-                            <li className={style.social}><img src={linkedin} alt="Linkedin"/></li>
+                            <a target='blank' href="https://github.com/Dudous"><li className={style.social}><img src={github} alt="GitHub"/></li></a>
+                            <a target='blank' href="https://www.instagram.com/"><li className={style.social}><img src={instagram} alt="Instagram"/></li></a>
+                            <a target='blank' href="https://www.linkedin.com/"><li className={style.social}><img src={linkedin} alt="Linkedin"/></li></a>
                         </ul>
                     </div>
                     <div>
