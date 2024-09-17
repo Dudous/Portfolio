@@ -2,7 +2,7 @@ import './App.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components/Header'
 import { Home } from './components/Home'
-import { Historico } from './components/Historico'
+import { Historico } from './components/Historico.jsx'
 import { Contact } from './components/Contact'
 import { Projects } from './components/Projects'
 
