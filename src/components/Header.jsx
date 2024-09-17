@@ -12,10 +12,11 @@ export const Header = () => {
                 <div className={style.sessenta}>
                     <ul className={style.pageList}>
                         <li className={style.page}><a className={style.text} href="#Home">Home</a></li>
+                        <li className={style.page}><a className={style.text} href="#Historico">Histórico</a></li>
                         <li className={style.page}><a className={style.text} href="#Projects">Projects</a></li>
                         <li className={style.page}><a className={style.text} href="">About</a></li>
                         <li className={style.page}><a className={style.text} href="">Soft skills</a></li>
-                        <li className={style.page}><a className={style.text} href="">Contact</a></li>
+                        <li className={style.page}><a className={style.text} href="#Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,42 +1,42 @@
 import style from './Historico.module.css'
 import senai from '../assets/Senai.jpg'
+import bosch from '../assets/bosch.png'
+import unicuritiba from '../assets/unicuritiba.png'
 
 export const Historico = () => {
 
     return(
         <>
-            <div className={style.page}>
+            <div className={style.page} id='Historico'>
                 <div className={style.principal}>
                     <h1>Experiência Profissional</h1>
                 </div>
                 <div className={style.deck}>
 
-                    <div className={style.card}>ks
-                        <h5 className={style.cardTittle}>Desenvolvedor Web</h5>
+                    <div className={style.card}>
                         <img className={style.imagem} src={senai} alt="Imagem daora" />
-                        <div>
-                            <h6>Empresa XYZ</h6>
-                            <p>Trabalhei no desenvolvimento de aplicações web utilizando tecnologias como HTML, CSS, JavaScript e frameworks modernos.</p>
+                        <div className={style.cardContent}>
+                            <h5 className={style.cardTittle}>Senai Celso Charuri</h5>
+                            <p>Systems Analysis and Development Technician</p>
                         </div>
                     </div>
-
 
                     <div className={style.card}>
-                        <div>
-                            <h5>Analista de Sistemas</h5>
-                            <h6>Empresa ABC</h6>
-                            <p>Responsável pela análise e especificação de requisitos de sistemas, elaboração de documentação e suporte técnico aos usuários.</p>
+                        <img className={style.imagem} src={unicuritiba} alt="Imagem daora" />
+                        <div className={style.cardContent}>
+                            <h5 className={style.cardTittle}>Unicuritiba</h5>
+                            <p>Mechanical Engineering</p>
                         </div>
                     </div>
-
 
                     <div className={style.card}>
-                        <div>
-                            <h5>Gerente de Projetos</h5>
-                            <h6>Empresa DEF</h6>
-                            <p>Gerenciei projetos de tecnologia, coordenando equipes e garantindo a entrega no prazo e dentro do orçamento.</p>
+                        <img className={style.imagem} src={bosch} alt="Imagem daora" />
+                        <div className={style.cardContent}>
+                            <h5 className={style.cardTittle}>Bosch</h5>
+                            <p>Technical Apprentice in Digital Solutions</p>
                         </div>
                     </div>
+                    
 
                 </div>
             </div>

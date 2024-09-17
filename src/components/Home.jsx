@@ -4,7 +4,7 @@ export const Home = () => {
 
     return(
         <>
-            <div className={style.page}>
+            <div className={style.page} id='Home'>
                 <div className={style.principal}>
                     <h1 className={style.greetings}>
                         <span>Hi, I am Eduardo Sampaio</span>
