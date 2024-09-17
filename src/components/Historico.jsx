@@ -14,7 +14,9 @@ export const Historico = () => {
                 <div className={style.deck}>
 
                     <div className={style.card}>
+                        <div>
                         <img className={style.imagem} src={senai} alt="Imagem daora" />
+                        </div>
                         <div className={style.cardContent}>
                             <h5 className={style.cardTittle}>Senai Celso Charuri</h5>
                             <p>Systems Analysis and Development Technician</p>
@@ -22,7 +24,9 @@ export const Historico = () => {
                     </div>
 
                     <div className={style.card}>
+                        <div>
                         <img className={style.imagem} src={unicuritiba} alt="Imagem daora" />
+                        </div>
                         <div className={style.cardContent}>
                             <h5 className={style.cardTittle}>Unicuritiba</h5>
                             <p>Mechanical Engineering</p>
@@ -30,7 +34,9 @@ export const Historico = () => {
                     </div>
 
                     <div className={style.card}>
+                        <div>
                         <img className={style.imagem} src={bosch} alt="Imagem daora" />
+                        </div>
                         <div className={style.cardContent}>
                             <h5 className={style.cardTittle}>Bosch</h5>
                             <p>Technical Apprentice in Digital Solutions</p>

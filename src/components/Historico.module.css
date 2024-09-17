@@ -39,6 +39,7 @@
 .cardTittle {
     padding: 5% 0;
     font-size: larger;
+    height: 48px;
 }
 
 .cardContent {
@@ -51,42 +52,6 @@
 
 .imagem {
     height: 200px;
-}
-
-
-.greetings {
-    display: flex;
-    flex-direction: column;
-}
-
-.line {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.social {
-    padding: 10px;
-    margin: 0 2%;
-}
-
-.social:hover {
-    cursor: pointer;
-}
-
-.resume {
-    font-size: large;
-    border: 0;
-    border-radius: 5px;
-    color: white;
-    padding: 17px 70px;
-    background-color: var(--color2);
-}
-
-.resume:hover {
-    cursor: pointer;
-}
-
-.imgprincipal {
-    margin: 0 2%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
 }
