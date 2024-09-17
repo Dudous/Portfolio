@@ -37,7 +37,6 @@ export const Historico = () => {
                         </div>
                     </div>
                     
-
                 </div>
             </div>
         </>  

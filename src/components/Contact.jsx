@@ -35,20 +35,17 @@ export const Contact = () => {
                     <h1>Contato</h1>
                 </div>
                 
-                <div>
-                    <div>
-                        <label htmlFor="name">Nome</label>
-                        <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required />
-                    </div>
-                    <div>
-                        <label htmlFor="email">E-mail</label>
-                        <input type="email" id='email' name='email' value={formData.email} onChange={handleChange} required />
-                    </div>
-                    <div>
-                        <label htmlFor="message">Mensagem</label>
-                        <textarea name="message" id="message" value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea>
-                    </div>
-                    <button onClick={handleZap}>Enviar mensagem</button>
+                <div className={style.contact}>
+                    <label htmlFor="name">Nome</label>
+                    <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required />
+
+                    <label htmlFor="email">E-mail</label>
+                    <input type="email" id='email' name='email' value={formData.email} onChange={handleChange} required />
+
+                    <label htmlFor="message">Mensagem</label>
+                    <textarea name="message" id="message" value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea>
+
+                    <button className={style.btnSubmit} onClick={handleZap}>Enviar mensagem</button>
                 </div>
                     
 
