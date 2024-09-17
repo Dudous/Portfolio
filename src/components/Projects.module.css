@@ -1,0 +1,26 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color1);
+    color: var(--white);
+    padding-top: 5%;
+}
+
+.principal {
+    display: flex;
+    color: var(--white);
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 2%;
+    padding: 0 5%;
+    width: 80vw;
+    scale: 0.9;
+}
+
+.fotoCarousel {
+    width: 100%;
+    height: auto;
+}
